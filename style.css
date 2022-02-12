@@ -1,0 +1,96 @@
+ /* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+  /* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+
+  body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #0d192b;
+  }
+
+  .mainContainer {
+      display: flex;
+      flex-direction: column;
+      width: 317px;
+      height: 550px;
+      margin: auto;
+      background-color: #14253d;
+      border-radius: 15px;
+      box-shadow:  10px 10px  black;
+  }
+
+  .mainProfile {
+      width: 269px; 
+      height: 272px;
+      border-radius: 30px;
+      padding: 22px;
+  }
+
+  .mainContainer h3 {
+      color:#ffff;
+      margin-left: 22px;
+      margin-top: 0px;
+      margin-bottom: 22PX;
+  }
+
+  .mainContainer h4 {
+      font-size: 16px;
+      margin-left: 22px;
+      margin-top: 0px;
+      color: #8bacda;
+  }
+
+  .rightLeftContainer{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 16px;
+      padding: 0px  22px 0px 22px;
+      margin-bottom: 22px;
+      color: #8bacda;
+  }
+
+  .diamond{
+    margin-right: 5px;
+  }
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    padding: 3px;
+}
+
+   .hr {
+     margin-left: 22px;
+     margin-right: 22px;
+     height: 2px;
+     background-color: #2f415b;
+  }
+
+
+  .footer {
+      display: flex;
+      margin-top: 20px;
+      padding-left: 22px;
+      align-items: center;
+      justify-content:flex-start;
+      
+      
+
+  }
+
+  .avator {
+      height: 30px;
+      border: 1px solid white;
+      border-radius: 50%;
+      margin-right: 10px;
+    
+  }
+
+  .creation {
+    color: #8bacda;
+  }
+ 
